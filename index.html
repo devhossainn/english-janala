@@ -31,7 +31,7 @@
   </head>
   <body class="font-poppins bg-white">
     <header class="mx-auto bg-[#edf6ff]">
-      <div class="navbar container mx-auto">
+      <div class="navbar container mx-auto flex-col lg:flex-row gap-4">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -65,21 +65,30 @@
               <li><a>Item 3</a></li>
             </ul>
           </div>
-          <a class="text-xl p-0" href="#"
+          <a class="lg:text-xl text-base p-0" href="#"
             >English <img src="./assets/logo.png" class="inline-block" alt="" />
             জানালা
           </a>
         </div>
 
-        <div class="navbar-end gap-4">
-          <a class="btn">
-            <img src="./assets/fa-circle-question.png" alt="" />FAQ
+        <div class="navbar-end gap-4 justify-center lg:justify-end">
+          <a class="btn border border-blue-600 bg-transparent">
+            <img src="./assets/fa-circle-question.png" alt="question" /><span
+              class="text-blue-600 font-semibold"
+              >FAQ</span
+            >
           </a>
-          <a class="btn">
-            <img src="./assets/fa-circle-question.png" alt="" />FAQ
+          <a class="btn border border-blue-600 bg-transparent">
+            <img src="./assets/fa-book-open.png" alt="book" /><span
+              class="text-blue-600 font-semibold"
+              >Learn</span
+            >
           </a>
-          <a class="btn">
-            <img src="./assets/fa-circle-question.png" alt="" />FAQ
+          <a class="btn border border-blue-600 bg-transparent">
+            <img src="./assets/fa-arrow-right-from-bracket.png" alt="arrow" /><span
+              class="text-blue-600 font-semibold"
+              >Logout</span
+            >
           </a>
         </div>
       </div>
